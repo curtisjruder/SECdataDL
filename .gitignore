@@ -1,0 +1,12 @@
+Data/
+.vs/
+(CAUTION) ImportSchema.bat
+Fundies.db
+NOTE.txt
+SEC parsing attempt.xlsm
+SECgovDataImport/bin/
+SECgovDataImport/obj/
+SchemaDefinition.xlsm
+data example.xlsm
+sqlite3.exe
+tickermapping.xlsm

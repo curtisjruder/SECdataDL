@@ -1,0 +1,25 @@
+// List of properties to include
+
+/////////////////////////////////
+
+Table:_TAG
+File:tag.txt
+{
+	custom:[0]
+}
+
+/////////////////////////////////
+
+Table:_SUB
+File:sub.txt
+{
+	form:['10-Q', '10-K']
+}
+
+/////////////////////////////////
+
+Table:_NUM
+File:num.txt
+{
+	coreg:[null]
+}

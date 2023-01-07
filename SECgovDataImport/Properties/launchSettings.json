@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SECgovDataImport": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Users\\curti\\Documents\\AI Investments\\Data\\2022q3.zip\" \"C:\\Users\\curti\\Documents\\AI Investments\\Fundies.db\""
+    }
+  }
+}

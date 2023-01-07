@@ -1,0 +1,35 @@
+CREATE TABLE '_TAG' (
+	tag Text VARCHAR(256) Not Null,
+	version Text VARCHAR(20) Not Null,
+	custom INTEGER(1) Not Null,
+	datatype Text VARCHAR(20),
+	tlabel Text VARCHAR(512),
+	doc Text VARCHAR(2048),
+	primary key(tag,version)
+);
+
+CREATE TABLE '_SUB' (
+	adsh Text VARCHAR(20) Not Null,
+	cik INTEGER(10),
+	name Text VARCHAR(150),
+	sic INTEGER(4),
+	countryba Text VARCHAR(2),
+	form Text VARCHAR(10),
+	fy INTEGER(4),
+	fp Text VARCHAR(2),
+	instance Text VARCHAR(32),
+	primary key(adsh)
+);
+
+CREATE TABLE '_NUM' (
+	adsh Text VARCHAR(20) Not Null,
+	tag Text VARCHAR(256) Not Null,
+	version Text VARCHAR(20) Not Null,
+	ddate INTEGER(8) Not Null,
+	qtrs INTEGER(8) Not Null,
+	uom Text VARCHAR(20) Not Null,
+	coreg INTEGER(256),
+	value INTEGER(16),
+	footnote Text VARCHAR(512),
+	primary key(adsh,tag,version,ddate,qtrs,uom,coreg)
+)
